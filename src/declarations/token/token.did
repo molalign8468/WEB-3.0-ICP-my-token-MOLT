@@ -1,0 +1,5 @@
+service : {
+  checkBalnce: (principal) -> (nat) query;
+  faucet: () -> (text);
+  transfer: (principal, nat) -> (text);
+}
